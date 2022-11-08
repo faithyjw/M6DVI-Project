@@ -1,1 +1,14 @@
-Both original and new data sets
+Hello:)
+
+In this "Datasets" folder, it contains the original dataset files and the new ones (generated from the code).
+
+Orignal Datasets Name:
+1. Air Cargo Loaded By RegionCountry Of Destination
+2. Civil Aircraft Arrivals And Departures, Passengers And Mail - Changi Airport
+
+New ones generated from the code:
+1. Air Cargo Data (From the data: Air Cargo Loaded By RegionCountry Of Destination)
+2. Civil Aircraft, Passengers and Mail Data
+3. Air Transportation Data (A combined dataset from both "Air Cargo Data" & "Civil Aircraft, Passengers and Mail Data")
+
+Thank you :)
