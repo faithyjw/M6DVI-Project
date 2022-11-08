@@ -1,14 +1,14 @@
-Hello:)
+Hello, this is a quick explantion of the two sub-folders, "Codes" and "Datasets".
 
 ******
+
 In the "Codes" folder, it contains the codes that I've typed to produce new datasets.
 
-1. "Air Cargo Loaded Code" is meant for the dataset titled, "Air Cargo Data".
-2. "Civil Aircraft Arrivals, Passengers & Mail Code" is meant for the dataset titled, "Civil Aircraft, Passengers and Mail Data".
-3. "Air Data Combination" is meant for the dataset titled, "Air Transportation Data".
+In the "Datasets" folder, it contains both the original and produced datasets.
 
-******
-In this "Datasets" folder, it contains the original dataset files that I've used.
+1. "Air Cargo Loaded Code" is meant for the NEW DATASET titled, "Air Cargo Data".
+2. "Civil Aircraft Arrivals, Passengers & Mail Code" is meant for the NEW DATASET titled, "Civil Aircraft, Passengers and Mail Data".
+3. "Air Data Combination" is meant for the NEW DATASET titled, "Air Transportation Data".
 
 Orignal Datasets Name:
 1. Air Cargo Loaded By RegionCountry Of Destination
@@ -18,4 +18,5 @@ Credits: https://tablebuilder.singstat.gov.sg/table/TS/M651251
 Credits: https://tablebuilder.singstat.gov.sg/table/TS/M650601
 
 ******
-Thank you :)
+
+Thank you:)
