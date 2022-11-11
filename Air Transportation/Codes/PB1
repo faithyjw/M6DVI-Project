@@ -1,0 +1,145 @@
+#calculated columns
+
+After Air Mail = 
+CALCULATE(
+	SUM('Air Transportation Data'[Total Mail (Tonne)]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After Aircraft Arrivals = 
+CALCULATE(
+	SUM('Air Transportation Data'[Aircraft Arrivals]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After Europe = 
+CALCULATE(
+	SUM('Air Transportation Data'[Europe]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After Middle East = 
+CALCULATE(
+	SUM('Air Transportation Data'[Middle East]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After North America = 
+CALCULATE(
+	SUM('Air Transportation Data'[North America]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After North East Asia = 
+CALCULATE(
+	SUM('Air Transportation Data'[North East Asia]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After Oceania = 
+CALCULATE(
+	SUM('Air Transportation Data'[Oceania]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After Other Regions = 
+CALCULATE(
+	SUM('Air Transportation Data'[Other Regions]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After Passengers Arrivals = 
+CALCULATE(
+	SUM('Air Transportation Data'[Passengers Arriving]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After Passengers In Transit = 
+CALCULATE(
+	SUM('Air Transportation Data'[Passengers In Transit]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After South Asia = 
+CALCULATE(
+	SUM('Air Transportation Data'[South Asia]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After South East Asia = 
+CALCULATE(
+	SUM('Air Transportation Data'[South East Asia]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+Before Air Mail = 
+CALCULATE(
+	SUM('Air Transportation Data'[Total Mail (Tonne)]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before Aircraft Arrivals = 
+CALCULATE(
+	SUM('Air Transportation Data'[Aircraft Arrivals]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before Europe = 
+CALCULATE(
+	SUM('Air Transportation Data'[Europe]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before Middle East = 
+CALCULATE(
+	SUM('Air Transportation Data'[Middle East]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before North America = 
+CALCULATE(
+	SUM('Air Transportation Data'[North America]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before North East Asia = 
+CALCULATE(
+	SUM('Air Transportation Data'[North East Asia]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before Oceania = 
+CALCULATE(
+	SUM('Air Transportation Data'[Oceania]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before Other Regions = 
+CALCULATE(
+	SUM('Air Transportation Data'[Other Regions]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before Passengers Arrivals = 
+CALCULATE(
+	SUM('Air Transportation Data'[Passengers Arriving]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before Passengers In Transit = 
+CALCULATE(
+	SUM('Air Transportation Data'[Passengers In Transit]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before South Asia = 
+CALCULATE(
+	SUM('Air Transportation Data'[South Asia]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before South East Asia = 
+CALCULATE(
+	SUM('Air Transportation Data'[South East Asia]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
