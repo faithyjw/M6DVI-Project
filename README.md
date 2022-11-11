@@ -2,6 +2,8 @@ Hello there! I am Faith:) 😊
 
 This repository contains the files that were used and the programming aspect of my project, "Before and During the Pandemic Transportation Patterns Analytics in Singapore". 
 
+I have analysed the 3 transportation category, which are "Air", "Land", and "Sea".
+
 Link to the report will be uploaded soon!
 
 Feel free to use, should you feel that the files and codes are essential to your project too! 
