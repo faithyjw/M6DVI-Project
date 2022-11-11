@@ -1,0 +1,41 @@
+#calculated measures
+
+Average After Air Cargo = ('Air Transportation Data'[Summary After Air Cargo]/ 3)
+
+Average Before Air Cargo = ('Air Transportation Data'[Summary Before Air Cargo]/ 6)
+
+Maximum After Air Cargo = MAX('Air Transportation Data'[After North East Asia])
+
+Maximum After Air Mail = MAX('Air Transportation Data'[After Air Mail])
+
+Maximum Before Air Cargo = MAX('Air Transportation Data'[Before North East Asia])
+
+Maximum Before Air Mail = MAX('Air Transportation Data'[Before Air Mail])
+
+Minimum After Air Cargo = MIN('Air Transportation Data'[After Other Regions])
+
+Minimum After Air Mail = MIN('Air Transportation Data'[After Air Mail])
+
+Minimum Before Air Cargo = MIN('Air Transportation Data'[Before Other Regions])
+
+Minimum Before Air Mail = MIN('Air Transportation Data'[Before Air Mail])
+
+Summary After Air Cargo = SUM([After Europe]) + SUM('Air Transportation Data'[After Middle East]) + SUM('Air Transportation Data'[After North America]) + SUM('Air Transportation Data'[After North East Asia]) +SUM('Air Transportation Data'[After Oceania]) + SUM('Air Transportation Data'[After Other Regions]) + SUM('Air Transportation Data'[After South Asia]) + SUM('Air Transportation Data'[After South East Asia])
+
+Summary After Air Mail = SUM('Air Transportation Data'[After Air Mail])
+
+Summary After Aircraft Arrivals = SUM('Air Transportation Data'[After Aircraft Arrivals])
+
+Summary After Passengers Arrivals = SUM('Air Transportation Data'[After Passengers Arrivals])
+
+Summary After Passengers In Transit = SUM('Air Transportation Data'[After Passengers In Transit])
+
+Summary Before Air Cargo = SUM('Air Transportation Data'[Before Europe]) + SUM('Air Transportation Data'[Before Middle East]) +SUM('Air Transportation Data'[Before North America]) + SUM('Air Transportation Data'[Before North East Asia]) + SUM('Air Transportation Data'[Before Oceania]) +SUM('Air Transportation Data'[Before Other Regions]) + SUM('Air Transportation Data'[Before South Asia]) +SUM('Air Transportation Data'[Before South East Asia])
+
+Summary Before Air Mail = SUM('Air Transportation Data'[Before Air Mail])
+
+Summary Before Aircraft Arrivals = SUM('Air Transportation Data'[Before Aircraft Arrivals])
+
+Summary Before Passengers Arrivals = SUM('Air Transportation Data'[Before Passengers Arrivals])
+
+Summary Before Passengers In Transit = SUM('Air Transportation Data'[Before Passengers In Transit])
