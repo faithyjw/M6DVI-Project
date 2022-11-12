@@ -1,0 +1,17 @@
+#calculated measures
+
+Average After Bus = AVERAGE('Land Transportation Data'[After Bus])
+
+Average After LRT = AVERAGE('Land Transportation Data'[After LRT])
+
+Average After MRT = AVERAGE('Land Transportation Data'[After MRT])
+
+Average After Taxis & Private Hirers = AVERAGE('Land Transportation Data'[After Taxis & Private Hirers])
+
+Average Before Bus = AVERAGE('Land Transportation Data'[Before Bus])
+
+Average Before LRT = AVERAGE('Land Transportation Data'[Before LRT])
+
+Average Before MRT = AVERAGE('Land Transportation Data'[Before MRT])
+
+Average Before Taxis & Private Hirers = AVERAGE('Land Transportation Data'[Before Taxis & Private Hirers])
