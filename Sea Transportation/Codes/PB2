@@ -1,0 +1,21 @@
+#calculated measures
+
+Average After Cruise Passengers (NO 2021) = AVERAGE('Sea Transportation Data'[After Cruise Passengers (NO 2021)])
+
+Average Before Cruise Passengers = AVERAGE('Sea Transportation Data'[Before Cruise Passengers]) 
+
+Summary After Bunker Sales = SUM('Sea Transportation Data'[After Bunker Sales])
+
+Summary After Container Throughputs = SUM('Sea Transportation Data'[After Container Throughput])
+
+Summary After Cruise Passengers = SUM('Sea Transportation Data'[After Cruise Passengers])
+
+Summary After Sea Cargos = SUM('Sea Transportation Data'[After Sea Cargo])
+
+Summary Before Bunker Sales = SUM('Sea Transportation Data'[Before Bunker Sales])
+
+Summary Before Container Throughput = SUM('Sea Transportation Data'[Before Container Throughput])
+
+Summary Before Cruise Passengers = SUM('Sea Transportation Data'[Before Cruise Passengers])
+
+Summary Before Sea Cargo = SUM('Sea Transportation Data'[Before Sea Cargo])
