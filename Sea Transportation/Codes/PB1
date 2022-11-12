@@ -1,0 +1,55 @@
+#calculated columns
+
+After Bunker Sales = 
+CALCULATE(
+	SUM('Sea Transportation Data'[Bunker Sales]),
+	'Land Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After Container Throughput = 
+CALCULATE(
+	SUM('Sea Transportation Data'[Total Container Throughput]),
+	'Land Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After Cruise Passengers = 
+CALCULATE(
+	SUM('Sea Transportation Data'[Cruise Passenger Arrivals]),
+	'Land Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After Cruise Passengers (NO 2021) = 
+CALCULATE(
+	SUM('Sea Transportation Data'[After Cruise Passengers]),
+	'Land Transportation Data'[Years] IN {2020, 2019}
+)
+
+After Sea Cargo = 
+CALCULATE(
+	SUM('Sea Transportation Data'[Total Cargo]),
+	'Land Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+Before Bunker Sales = 
+CALCULATE(
+	SUM('Sea Transportation Data'[Bunker Sales]),
+	'Land Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before Container Throughput = 
+CALCULATE(
+	SUM('Sea Transportation Data'[Total Container Throughput]),
+	'Land Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before Cruise Passengers = 
+CALCULATE(
+	SUM('Sea Transportation Data'[Cruise Passenger Arrivals]),
+	'Land Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before Sea Cargo = 
+CALCULATE(
+	SUM('Sea Transportation Data'[Total Cargo]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
