@@ -11,7 +11,7 @@ The file "FaithYeo_32_PT2101Q_M6Project" shows the output of the codes/ how the 
 Feel free to use, should you feel that the files and codes are essential to your project too! 
 
 Heads up! 
-1. Coding was done in the Python Language. 
+1. Coding was done in the Python Language (and a little of Data Analysis Expression (DAX)). 
 2. For the codes to work, libraries that are needed to be installed are "pandas" and "NumPy".
 3. Versions used: [Python: 2.8.2], [pandas: 1.5.1], [NumPy: 1.23.4]
 4. I used Visual Studio Code as my IDE.
