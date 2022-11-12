@@ -20,6 +20,9 @@ df.drop(df.index[range(10,56)], axis=0, inplace=True)
 print(df)
 #print (df.shape)
 
+#Transposing the dataset
+#df.T
+
 #replacing the titles
 df=df.replace('Data Series','Years')
 
