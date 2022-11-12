@@ -1,0 +1,50 @@
+#calculated columns
+
+After Bus = 
+CALCULATE(
+	SUM('Land Transportation Data'[Bus Passengers]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After LRT = 
+CALCULATE(
+	SUM('Land Transportation Data'[LRT Passengers]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+
+After MRT = 
+CALCULATE(
+	SUM('Land Transportation Data'[MRT Passengers]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+After Taxis & Private Hirers = 
+CALCULATE(
+	SUM('Land Transportation Data'[Taxis & Private Hirers Passengers]),
+	'Sea Transportation Data'[Years] IN {2021, 2020, 2019}
+)
+
+Before Bus = 
+CALCULATE(
+	SUM('Land Transportation Data'[Bus Passengers]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before LRT = 
+CALCULATE(
+	SUM('Land Transportation Data'[LRT Passengers]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before MRT = 
+CALCULATE(
+	SUM('Land Transportation Data'[MRT Passengers]),
+	'Sea Transportation Data'[Years] IN {2018, 2017, 2016, 2015, 2014, 2013 }
+)
+
+Before Taxis & Private Hirers = 
+CALCULATE(
+	SUM('Land Transportation Data'[Taxis & Private Hirers Passengers]),
+	'Sea Transportation Data'[Years] IN {2018 }
+)
