@@ -2,8 +2,6 @@ Hello there! I am Faith:) 😊
 
 I have analysed the 3 transportation categories, which are "Air", "Land", and "Sea".
 
-Link to the report will be uploaded soon!
-
 The file "FaithYeo_32_PT2101Q_M6Project" shows the output of the codes/ how the data visualisations looks like!
 
 Feel free to use, should you feel that the files and codes are essential to your project too! 
